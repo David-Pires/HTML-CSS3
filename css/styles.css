@@ -1,10 +1,14 @@
 body {
-  background: #cccccc;
+  background: white;
 }
 
 #banner {
   width: 100%;
-  
+}
+
+.principal {
+  background: #cccccc;
+  padding: 30px;
 }
 h1 {
   text-align: center;
@@ -22,7 +26,26 @@ em strong {
   color: red;
 }
 
+.itens {
+  font-style: italic;
+}
+.beneficios {
+  background: white;
+  padding: 20px;
+}
 
+h2 {
+  text-align: center;
+}
+ul {
+  display:inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%
+}
+.imagemBeneficios {
+  width: 50%;
+}
 /* p {
   background: #cccc;
   font-size: 20px;
