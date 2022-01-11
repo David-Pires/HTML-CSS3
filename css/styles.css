@@ -1,4 +1,17 @@
+body {
+  background: #cccccc;
+}
+
+h1,
 p {
-  font-size: 20px;
   text-align: center;
 }
+
+em strong {
+  color: red;
+}
+/* p {
+  background: #cccc;
+  font-size: 20px;
+  text-align: center;
+} */
