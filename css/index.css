@@ -50,8 +50,15 @@ ul {
 .imagemBeneficios {
   width: 50%;
 }
-/* p {
-  background: #cccc;
-  font-size: 20px;
+
+footer {
   text-align: center;
-} */
+  background: url('/images/1.jpg');
+  padding: 40px 0;
+}
+.copy-right-index {
+  font-size: 13px;
+  margin-top: 20px;
+  color: white;
+
+}
