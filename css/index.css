@@ -53,12 +53,12 @@ ul {
 
 footer {
   text-align: center;
-  background: url('/images/1.jpg');
+  background-image: url('/images/1.jpg');
   padding: 40px 0;
 }
 .copy-right-index {
+  color: white;
   font-size: 13px;
   margin-top: 20px;
-  color: white;
 
 }
