@@ -32,10 +32,14 @@ em strong {
 
 .itens {
   font-style: italic;
+  vertical-align: super;
+  
+
 }
 .beneficios {
   background: white;
   padding: 20px;
+  vertical-align: middle;
 }
 
 h2 {
@@ -49,6 +53,9 @@ ul {
 }
 .imagemBeneficios {
   width: 50%;
+  display: inline-block;
+  text-align: left;
+
 }
 
 footer {
