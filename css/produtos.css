@@ -113,11 +113,11 @@ footer {
   font-style: italic;
 }
 
-.imagem-beneficios {
+/* .imagem-beneficios {
   width: 60%;
   float: right;
   
-}
+} */
 .utensilios {
   width: 120px;
   float: left;
@@ -136,4 +136,9 @@ footer {
 .mapa p {
   margin: 0 0 2em;
   text-align: center;
+}
+
+.video {
+  width: 570px;
+  margin: 1em auto;
 }
