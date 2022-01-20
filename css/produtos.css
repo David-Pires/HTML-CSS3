@@ -1,5 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  
 }
 header {
   background: #bbbbbb;
@@ -89,6 +90,7 @@ footer {
   margin-top: 20px; 
   }
 
+ 
   /*css da página inicial */
   .banner {
     width: 100%;
@@ -101,8 +103,16 @@ footer {
   clear: left;
 }
 
-.principal p {
-  margin: 0 0 1em;
+.principal {
+  padding: 3em 0;
+  background: #FEFEFE;
+  width: 940px;;
+  margin: 0 auto;
+}
+
+.principal p {  
+  width: 940px;
+  margin: 0 auto;
 }
 
 .principal strong {
@@ -111,26 +121,38 @@ footer {
 
 .principal em {
   font-style: italic;
+  font-weight: bold;
+  margin: 0 auto;
 }
 
 .utensilios {
   width: 120px;
-  float: left;
-  margin-right: 20px;
+  margin-right: 10px;
+  float: left;  
 }
 
 .mapa {
   padding: 3em 0;
+  background: linear-gradient(#FEFEFE, #888888);
   
+}
+
+.mapa-conteudo {
+  width: 940px;
+  margin: 0 auto;
+
 }
 
 .mapa p {
   margin: 0 0 2em;
   text-align: center;
+  
 }
 
 .beneficios {
   padding: 3em 0;
+  background: #888888;
+  
 }
 
 footer {
@@ -159,6 +181,10 @@ footer {
   /* nth-child(1n, 2n etc) */
 }
 
+.itens:before {
+  content: "\2605
+  "
+}
 .imagem-beneficios {
   width: 60%;  
   
