@@ -1,6 +1,5 @@
 body {
-  font-family: 'Montserrat', sans-serif;
-  
+  font-family: "Montserrat", sans-serif;
 }
 header {
   background: #bbbbbb;
@@ -12,6 +11,7 @@ header {
   width: 940px;
   margin: 0 auto;
 }
+
 nav {
   position: absolute;
   top: 110px;
@@ -81,38 +81,39 @@ footer {
   background-color: #1f1919;
   padding: 40px 0;
   /* background-image: url('/images/1.jpg'); */
-
 }
 
 .copyright {
   color: white;
   font-size: 13px;
-  margin-top: 20px; 
-  }
+  margin-top: 20px;
+}
 
- 
-  /*css da página inicial */
-  .banner {
-    width: 100%;
-  }
+/*css da página inicial */
+.banner {
+  width: 100%;
+}
 
 .titulo-principal {
+  font-weight: bold;
   text-align: center;
   font-size: 2em;
   margin: 0 0 1em;
   clear: left;
+  color: rgba(0, 0, 0,);
+  
 }
+
 
 .principal {
   padding: 3em 0;
-  background: #FEFEFE;
-  width: 940px;;
+  background: #fefefe;
+  width: 940px;
   margin: 0 auto;
 }
 
-.principal p {  
-  width: 940px;
-  margin: 0 auto;
+.principal p {
+  margin: 0 0 1em;
 }
 
 .principal strong {
@@ -126,40 +127,34 @@ footer {
 }
 
 .utensilios {
+  float: left;
+  margin: 0 20px 20px 0;
   width: 120px;
-  margin-right: 10px;
-  float: left;  
 }
 
 .mapa {
   padding: 3em 0;
-  background: linear-gradient(#FEFEFE, #888888);
-  
+  background: linear-gradient(#fefefe, #888888);
 }
 
 .mapa-conteudo {
   width: 940px;
   margin: 0 auto;
-
 }
 
 .mapa p {
   margin: 0 0 2em;
   text-align: center;
-  
 }
 
 .beneficios {
   padding: 3em 0;
   background: #888888;
-  
 }
 
-footer {
+/* footer {
   clear: right;
-}
-
-
+} */
 
 .conteudo-beneficios {
   width: 640px;
@@ -186,10 +181,18 @@ footer {
   "
 }
 .imagem-beneficios {
-  width: 60%;  
-  
+  width: 60%;
+  opacity: 1;
+  transition:400ms;
+  box-shadow: 10px 10px 30px #000000 ;
+}
+
+
+.imagem-beneficios:hover {
+  opacity: 0.8;
 }
 .video {
   width: 562px;
-  margin: 1em auto;
+  margin: 2em auto;
 }
+
