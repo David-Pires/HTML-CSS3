@@ -223,4 +223,7 @@ footer {
    .produto-preco {
     margin: 15px auto 3px auto ;
   }  
+  .principal, li {
+    margin-left: 10px;
+  }
 }
