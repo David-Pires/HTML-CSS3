@@ -201,6 +201,7 @@ footer {
     width: auto;
   }
   h1 {
+    
     text-align: center;
   }
   nav {
@@ -209,16 +210,11 @@ footer {
 
   .lista-beneficios, .imagem-beneficios {
     width: 100%;
-  } 
-  
-  
+  }   
   .produtos li {    
     display: flex;  
     flex-wrap: wrap; 
-    margin-bottom: 1rem;  
-    
-    
-    
+    margin-bottom: 1rem;      
   }
   
   h2 {
@@ -226,7 +222,5 @@ footer {
   }
    .produto-preco {
     margin: 15px auto 3px auto ;
-
-  }
-  
+  }  
 }
